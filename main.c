@@ -5,9 +5,9 @@
 
 int main(int argc, char *argv[]) {
 	
-	double number;
+	int number;
 	printf(" 정수 하나를 입력하시오 :");
-	scanf("%d", &number);
+	scanf("%i", &number);
 	 
 	 if(number > 0 )
 	 printf(" 양수입니다.\n");
